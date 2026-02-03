@@ -1,0 +1,25 @@
+{
+  "name": "yively-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@prisma/client": "5.10.0",
+    "gsap": "^3.12.5",
+    "nuxt": "^3.12.0",
+    "sass": "^1.77.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^1.10.3",
+    "@nuxtjs/i18n": "^8.3.0",
+    "prisma": "5.10.0"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "projects": [
+   
+    {
+      "id": "hojadigital",
+      "image": "https://image2url.com/r2/default/images/1770080933664-b5f4d576-f936-4241-8aac-f993e003a137.png",
+      "title": "Hoja de Vida Digital",
+      "link": "https://app.hojadevida.digital/",
+      "tags": ["Nuxt", "Vue 3", "TypeScript", "Vite","Pinia", "Frontend Architecture", "Consumo e integración de APIs REST para la persistencia de datos del usuario", "Configuración del módulo de pagos con PayPal SDK para habilitar servicios Premium","Maquetación y estado de la aplicación en el área de login y dashboard de usuario."],
+      "color": "#10B981",
+      "description": {
+        "es": "Desarrollo del Frontend y lógica de integración para Hoja de Vida Digital, una herramienta web para la creación de CVs inteligentes. Mi trabajo se centró en la aplicación privada (/app), transformando requerimientos técnicos en una herramienta funcional y escalable.",
+        "en": "High-performance web experience for digital technology services."
+      },
+      "github": "https://github.com/patriciax/hojadevida"
+
+    },
+     {
+      "id": "rcroca",
+      "image": "https://image2url.com/r2/default/images/1770080990883-50b876cf-98d2-4758-b2d1-dde0e8ccf70b.png",
+      "title": "E-commerce RC Roca",
+      "link": "https://www.rcroca.com/",
+      "tags": ["Vue 3", "Tailwind", "Pinia","Responsive","Nodejs", "Integración de métodos de pago seguros, garantizando un flujo de checkout fluido y confiable para el cliente final", "Desarrollo de filtros dinámicos por categorías, tallas y stock en tiempo real","Implementación de una arquitectura moderna y reactiva, utilizando Vue 3 para la lógica de componentes y Tailwind para un diseño responsivo y estilizado a medida."],
+      "color": "#8B5CF6",
+      "description": {
+        "es": "Plataforma de comercio electrónico personalizada para la marca RC Roca, enfocada en la venta minorista de ropa y calzado. Diseñé y desarrollé la solución de extremo a extremo, priorizando el rendimiento y una interfaz visualmente atractiva que refleja la identidad de la marca.",
+        "en": "Professional corporate presence for global business solutions."
+      },
+      "github": "https://github.com/patriciax/ecommerce-store"
+    },
+    {
+      "id": "somosjam",
+      "title": "Creativa",
+      "image": "https://image2url.com/r2/default/images/1770081834111-fe2f33b8-46af-42e2-b17a-48f97aaab45a.png",
+      "link": "https://www.somosjam.cl/",
+      "tags": ["WordPress", "Custom Theme", "E-commerce","Implementé un panel administrativo personalizado utilizando Advanced Custom Fields, permitiendo al cliente gestionar cada sección del sitio de manera independiente y estructurada.","Desarrollo de animaciones personalizadas mediante JavaScript (Vanilla/GSAP) para mejorar el storytelling visual y la retención del usuario","Estructuración de temas a medida (Custom Theme) para evitar el exceso de plugins y garantizar una carga rápida"],
+      "color": "#F59E0B",
+      "description": {
+        "es": "El enfoque principal fue transformar un diseño creativo en una experiencia web fluida, utilizando WordPress como motor de gestión de contenidos pero con una arquitectura personalizada..",
+        "en": "Custom e-commerce architecture for a creative studio."
+      }
+    },
+     
+    {
+      "id": "medic",
+      "image": "https://image2url.com/r2/default/images/1770083866146-ef40fd64-2929-4dd8-bac7-f60717f46c11.png",
+      "title": "Plataforma de Gestión Médica",
+      "link": "https://test.menoos.pro/",
+      "tags": [ "Vue 3","Tailwind", "Desarrollo de una SPA (Single Page Application) robusta utilizando Vue 3","Maquetación de la página de aterrizaje enfocada en la adquisición de clientes y claridad del producto","Creación del panel interno para la gestión de usuarios, registros y visualización de datos complejos."],
+      "color": "#3B82F6",
+      "description": {
+        "es": "El proyecto abarcó desde la presencia pública (Landing Page) hasta la arquitectura del software de gestión interna (Panel Administrativo).",
+        "en": "Modern e-commerce platform infrastructure built with Nuxt."
+      }
+    }
+   
+  
+  ],
+  "experience": [
+    {
+      "id": "linktic",
+      "role": "Senior Frontend Developer",
+      "company": "LinkTIC",
+      "date": "2024 - Present",
+      "description": {
+        "es": "Arquitecta líder para módulos core en aplicaciones financieras empresariales. Enfoque en escalabilidad de componentes, rendimiento de renderizado y altos estándares de seguridad.",
+        "en": "Lead architect for core modules in enterprise financial applications. Focused on component scalability, rendering performance, and high-security standards."
+      }
+    },
+    {
+      "id": "amoba",
+      "role": "Vue 3 / Nuxt Developer",
+      "company": "AMOBA Software",
+      "date": "2022 - 2024",
+      "description": {
+        "es": "Arquitecta de SPAs y PWAs modernas usando Vue 3 y Nuxt. Implementación de sistemas de diseño modulares y mejora del rendimiento en tiempo de ejecución en un 40%.",
+        "en": "Architected modern SPAs and PWAs using Vue 3 and Nuxt. Implemented modular design systems and improved runtime performance by 40%."
+      }
+    },
+    {
+      "id": "apss",
+      "role": "Full Stack Developer (Nuxt / Laravel)",
+      "company": "APSS",
+      "date": "2020 - 2022",
+      "description": {
+        "es": "Desarrollo de soluciones web integradas combinando frontends Nuxt de alto rendimiento con arquitecturas de backend Laravel robustas.",
+        "en": "Developed integrated web solutions combining high-performance Nuxt frontends with robust Laravel backend architectures."
+      }
+    },
+    {
+      "id": "somosjam",
+      "role": "Frontend Specialist (WordPress)",
+      "company": "SOMOSJAM",
+      "date": "2020 - 2021",
+      "description": {
+        "es": "Diseño y desarrollo de temas personalizados de alta conversión para marcas globales de e-commerce.",
+        "en": "Designed and developed high-conversion custom themes for global e-commerce brands."
+      }
+    },
+    {
+      "id": "slice",
+      "role": "Junior Frontend Developer",
+      "company": "Slice Group",
+      "date": "2017 - 2020",
+      "description": {
+        "es": "Inicio del viaje en el ecosistema web, construyendo interfaces responsivas y dominando los estándares web.",
+        "en": "Started the journey in the web ecosystem, building responsive interfaces and mastering web standards."
+      }
+    }
+  ]
+}
