@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@nuxt/icon": "^1.10.3",
-    "@nuxtjs/i18n": "^8.3.0",
+    "@nuxtjs/i18n": "^9.3.0",
     "prisma": "5.10.0"
   }
 }
