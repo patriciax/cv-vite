@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   modules: ['@nuxt/icon', '@nuxtjs/i18n'],
+  unhead: {
+    legacy: true
+  },
   i18n: {
     locales: [
       { code: 'en', name: 'EN', file: 'en.js' },
