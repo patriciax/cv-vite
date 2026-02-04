@@ -24,7 +24,6 @@
   },
   "pnpm": {
     "overrides": {
-      "@nuxtjs/i18n": "^9.5.6"
     }
   }
 }
