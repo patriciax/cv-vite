@@ -57,10 +57,7 @@
            <div class="hero-tag">
            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="16"
                         viewBox="0 0 319 477" width="20">
-                        <script xmlns="" id="eppiocemhmnlbhjplcgkofciiegomcon" />
-                        <script xmlns="" />
-                        <script xmlns="" />
-                        <script xmlns="" />
+
                         <linearGradient id="a">
                           <stop offset="0" stop-color="#52ce63" />
                           <stop offset="1" stop-color="#51a256" />
@@ -137,7 +134,7 @@
                             </g>
                           </g>
                         </g>
-                        <script xmlns="" />
+
                       </svg>
           <span>Pinia</span>
         </div>
