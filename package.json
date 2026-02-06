@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/icon": "^1.10.3",
+    "@oxc-parser/binding-linux-x64-gnu": "0.110.0",
     "prisma": "5.10.0"
   },
   "pnpm": {
