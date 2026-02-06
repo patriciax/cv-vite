@@ -11,8 +11,8 @@ export default defineNuxtConfig({
       { code: 'en', name: 'EN', file: 'en.js' },
       { code: 'es', name: 'ES', file: 'es.js' }
     ],
-    lazy: true,
-    langDir: 'locales/',
+    lazy: false,
+
     defaultLocale: 'es',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: {
