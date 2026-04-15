@@ -1,19 +1,24 @@
 import { promises as fs } from 'fs'
 import { join } from 'path'
-import defaultData from '../data/db.json'
-
-const dbPath = join(process.cwd(), 'server/data/db.json')
+import dbData from '../data/db.json'
 
 export const readDb = async () => {
+  if (process.env.NODE_ENV === 'production') {
+    return dbData
+  }
+  
   try {
+    const dbPath = join(process.cwd(), 'server/data/db.json')
     const data = await fs.readFile(dbPath, 'utf-8')
     return JSON.parse(data)
   } catch (error) {
-    // Return statically imported data if reading from file system fails (e.g., on Vercel)
-    return defaultData
+    return dbData || { projects: [], experience: [] }
   }
 }
 
 export const writeDb = async (data) => {
-  await fs.writeFile(dbPath, JSON.stringify(data, null, 2))
+  if (process.env.NODE_ENV !== 'production') {
+    const dbPath = join(process.cwd(), 'server/data/db.json')
+    await fs.writeFile(dbPath, JSON.stringify(data, null, 2))
+  }
 }
